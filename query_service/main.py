@@ -85,4 +85,4 @@ async def slack_event(request: Request):
     elif 'event' in data:  # actual event
         event_data = data['event']
         Thread(target=process_event, args=(event_data, data)).start()
-    return JSONResponse(status_code=200)
+    return JSONResponse(content="", status_code=200)
