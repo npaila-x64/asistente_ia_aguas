@@ -1,6 +1,5 @@
 from threading import Thread
 
-from requests import Request
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 from starlette.responses import JSONResponse
@@ -11,7 +10,7 @@ from llama_index import (
 )
 from ai_models import dummyai, openai
 from pydantic import BaseModel
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 
 IS_AI_DUMMY = False  # Change between the dummy ai model and the actual openai API
 
@@ -79,6 +78,7 @@ def process_event(event_data, data):
 
 @app.post("/slack")
 async def slack_event(request: Request):
+    print(request)
     data = await request.json()
     if "challenge" in data:
         return {"challenge": data["challenge"]}
