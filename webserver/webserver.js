@@ -6,6 +6,7 @@ const { Server } = require("socket.io")
 const io = new Server(server)
 
 const axios = require('axios')
+const bodyParser = require('body-parser')
 
 // Set static directory with the files to be served
 app.use(express.static(__dirname + '/public'))
@@ -15,18 +16,25 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html')
 })
 
-app.post('/slack', (req, res) => {
-    console.log("req")
-    console.log(req)
-    axios.post('http://127.0.0.1:1234/slack', req)
-    .then(response => {
-        console.log("response")
-        console.log(response)
-        res.send(response)
-    })
-    .catch(error => {
-        console.error(error)
-    })
+// parse application/json
+app.use(bodyParser.json())
+
+app.post('/slack', async (req, res) => {
+    const fastApiUrl = 'http://127.0.0.1:1234/slack' // replace with your FastAPI service URL
+
+    try {
+        const fastApiResponse = await axios.post(fastApiUrl, req.body)
+
+        // send the FastAPI response back to the client
+        res.status(fastApiResponse.status).send(fastApiResponse.data)
+    } catch (error) {
+        // if there's an error, send that to the client as well
+        if (error.response) {
+            res.status(error.response.status).send(error.response.data)
+        } else {
+            res.status(500).send({message: 'Unknown server error'})
+        }
+    }
 })
 
 const PORT = 20000
