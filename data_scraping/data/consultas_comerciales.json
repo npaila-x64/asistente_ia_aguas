@@ -1,0 +1,42 @@
+[
+    {
+        "pregunta": "¿Qué es un metro cúbico (m3) de agua potable?",
+        "respuesta": "Corresponde a 1.000 litros de agua potable."
+    },
+    {
+        "pregunta": " ¿Qué conceptos tiene la cuenta de agua potable?",
+        "respuesta": "Los conceptos en la cuenta de agua potable son:1.- Promedio descontable: Consumo presunto que se factura cuando no es posible acceder al medidor. Se calcula en base al promedio de los últimos 6 meses de lectura. Se descuenta lo que corresponda en la siguiente facturación.2.- Promedio no descontable: Consumo presunto que se factura por falla o carencia del medidor. Se calcula en base al promedio histórico de los últimos 6 meses.3.- Prorrateo: Se aplica sólo en condominios. Es la diferencia del consumo entre el medidor general y la suma de los medidores de cada inmueble. Esta diferencia se distribuye habitualmente entre todas las viviendas y/o departamentos del condominio.4.- Alcantarillado: Es el costo por el servicio de recolección de las aguas servidas de los domicilios, para conducirlas hasta las plantas de tratamiento. Así cuidamos de tu salud.5.- Tratamiento de Aguas Servidas: Es el cobro por el servicio de tratamiento de las aguas retiradas de los domicilios por el sistema de alcantarillado y derivadas a plantas de tratamiento, para garantizar que cumplan con la normativa de descarga a cursos o cuerpos de aguas naturales.6.- Cargo Fijo: Es la suma de los costos generados por lectura de medidores, facturación, emisión de documentos de cobro, reparto de boletas, recaudación, oficinas comerciales, entre otros.7.- Factor de cobro: Indica si el proceso de lectura corresponde al período de un mes entero (igual a 1), en caso de ser distinto de 1 el cargo fijo y el límite de sobreconsumo deben ser multiplicados por este factor.8.- Ajuste sencillo: Es la rebaja al cobro del consumo facturado, ajustándolo hacia abajo, para que quede en $50 ó $100 (Ajuste Sencillo Crédito), para adicionar lo restado en la siguiente facturación (Ajuste Sencillo Anterior)."
+    },
+    {
+        "pregunta": " ¿Se puede pagar la boleta de agua potable fuera de la ciudad de mi residencia habitual?",
+        "respuesta": "La boleta de agua puede ser cancelada en cualquiera de los puntos de recaudación que tenemos disponibles para ti. Pague aquí"
+    },
+    {
+        "pregunta": "¿Después de la fecha de vencimiento, cuánto tiempo tengo para pagar sin tener corte de suministro?",
+        "respuesta": "La empresa está facultada por ley para suspender el suministro de agua potable, previo aviso de 15 días, a todos aquellos clientes que adeuden una o más cuentas, además de cobrar los costos por el corte y reposición (Art. 36° letra d, D.F.L. MOP N° 382/88). No obstante, la empresa cuenta con el beneficio de aplazamiento de pago, con un plazo máximo de 3 días hábiles a solicitar por cualquiera de nuestros medios de contacto (Call Center, Centro de Atención de Clientes o sitio web)."
+    },
+    {
+        "pregunta": "¿Qué debo hacer si mi boleta no me ha llegado?",
+        "respuesta": "Puedes descargar una copia desde el sitio web, ingresando a la Oficina Virtual en el menú \"Mi cuenta en línea\", opción \"Mis boletas\" e imprimirla. También puedes ingresar tu requerimiento a través de nuestro Call Center, Centro de Atención de Clientes o el sitio web. Recuerda que tu boleta esta disponible en el correo electrónico ingresado en nuestro sitio."
+    },
+    {
+        "pregunta": "¿En qué consiste el subsidio de agua potable?",
+        "respuesta": "El subsidio es la forma en que el Estado de Chile ayuda a las familias socioeconómicamente vulnerables en el pago de la cuenta del agua. Los clientes interesados deben postular a través de sus respectivas municipalidades. Para más información llama a nuestro Call Center o dirígete a nuestras oficinas comerciales."
+    },
+    {
+        "pregunta": "¿En qué consiste el beneficio aplazamiento de pago?",
+        "respuesta": "Consiste en aplazar el pago de tu boleta/factura hasta el día antes de tu próxima facturación. Lo anterior no tiene costo, con la excepción del cobro de intereses por mora establecidos en la normativa vigente. "
+    },
+    {
+        "pregunta": "¿Cómo acceder al beneficio aplazamiento de pago? ",
+        "respuesta": "Lo puedes realizar a través de nuestros distintos canales, como Centro de Atención de Clientes, Call Center o nuestro sitio web. "
+    },
+    {
+        "pregunta": "¿Qué es el beneficio del convenio autogestionado?",
+        "respuesta": "Es la suscripción de convenios a través de módulos de autoconsulta, con la finalidad de mejorar tu experiencia en nuestros Centros de Atención de Clientes; reduciendo los tiempos de espera para realizar este  trámite y logrando darte facilidades de pago para evitar la suspensión del suministro de agua potable.  "
+    },
+    {
+        "pregunta": "¿A quiénes beneficia el convenio autogestionado y cómo hago para obtenerlo?",
+        "respuesta": "A clientes residenciales, los cuales pueden acceder a convenios normales (residencial normal) a través del módulo de autoconsulta.  En este caso, el cliente puede generar un convenio en cuotas mensuales, directamente del módulo. Posterior a ello debes pasar a caja para pagar el pie dentro del día.  "
+    }
+]
