@@ -15,6 +15,20 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html')
 })
 
+app.post('/slack', (req, res) => {
+    console.log("req")
+    console.log(req)
+    axios.post('http://127.0.0.1:1234/slack', req)
+    .then(response => {
+        console.log("response")
+        console.log(response)
+        res.send(response)
+    })
+    .catch(error => {
+        console.error(error)
+    })
+})
+
 const PORT = 20000
 
 server.listen(PORT, () => log('listening on *:' + PORT))
