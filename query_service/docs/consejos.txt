@@ -4,7 +4,7 @@ pregunta: ¿Puedo modificar la fecha de vencimiento de mi Boleta/Factura?
 respuesta: Cada cliente tiene asignado un sector geográfico dentro de la comuna, y las fechas del proceso están dadas por este ordenamiento territorial, por lo anterior, no es posible modificar el vencimiento. Como alternativa puede solicitar un Aplazamiento de pago en nuestra página web, a fin de que pueda pagar su cuenta dentro del mes, en la fecha que más le acomode. 
 
 pregunta: ¿Cómo postular al subsidio de agua potable?
-respuesta: Para postular al subsidio de agua potable entregado por la Municipalidad debe acercarse a nuestras oficinas comerciales o a las oficinas de Dideco de cada Municipalidad, con la siguiente documentación: 
+respuesta: Para postular al subsidio de agua potable entregado por la Municipalidad debe acercarse a nuestras oficinas comerciales o a las oficinas de Dideco de cada Municipalidad, con la siguiente documentación: - Registro Social de Hogar actualizado, registrándose la dirección del servicio. - Última boleta de agua potable al día; si registra deuda, puede suscribir un convenio de pago con el fin de incorporar su postulación. - Copia de la cédula de identidad
 
 pregunta: ¿Cómo puedo saber en qué fecha vendrán a tomar lectura de mi medidor?
 respuesta: Esta información figura impresa en su boleta de consumo, la cual puede sufrir variaciones entre 1 y 3 días.   
@@ -58,7 +58,7 @@ pregunta: ¿Puede mi ocupante o arrendatario realizar convenio sin mi autorizaci
 respuesta: Cualquier persona mayor de 18 años está en condiciones de pactar un convenio, siempre y cuando el propietario no haya solicitado la restricción de convenio. Para solicitar la restricción de convenio se debe acercar a nuestros Centro de Atención de Clientes y acreditar la condición de propietario.
 
 pregunta: ¿Cómo puedo informar la lectura de mi medidor?
-respuesta: Para informar la lectura del medidor debe realizarlo en la fecha indicada en su boleta teniendo un margen de 2 días antes o 2 días después. Utilizando los canales de contacto disponibles para esta actividad.Los canales disponibles, son:
+respuesta: Para informar la lectura del medidor debe realizarlo en la fecha indicada en su boleta teniendo un margen de 2 días antes o 2 días después. Utilizando los canales de contacto disponibles para esta actividad.Los canales disponibles, son: - Call Center: 600 200 4545 - Página web www.aguasaraucania.cl - Aplicación APP Aguas Araucania - WhatsApp bot MIZU, +56 98174 7896
 
 pregunta: ¿Cómo puedo tener facilidades de pago para regularizar mi deuda?
 respuesta: Puede optar a las facilidades de pago mediante la suscripción de un convenio, contactándose a través de algunos de nuestros canales de atención: Call Center: 600 200 4545; Página web www.aguasaraucania.cl; Aplicación APP Aguas Araucania; WhatsApp bot MIZU: +56 98174 7896
