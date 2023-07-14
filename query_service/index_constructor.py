@@ -1,6 +1,5 @@
 from utils import ServiceContextWrapper
-from llama_index import download_loader
-from llama_index.indices.document_summary import DocumentSummaryIndex
+from llama_index import download_loader, VectorStoreIndex
 from llama_index.node_parser import SimpleNodeParser
 import openai
 import os
@@ -33,7 +32,7 @@ def construct_index():
     nodes = parser.get_nodes_from_documents(documents)
 
     # build index
-    index = DocumentSummaryIndex.from_documents(documents)
+    index = VectorStoreIndex.from_documents(documents)
 
     print(service_context_wrapper.get_token_usage())
     service_context_wrapper.reset_token_counts()
