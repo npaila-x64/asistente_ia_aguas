@@ -31,7 +31,7 @@ if not IS_AI_DUMMY:
     print('Index was loaded')
 
 app = FastAPI()
-slack_token = "xoxb-3647828200103-5563174698535-EcfowhzPHjOaIPx5e3vJCB1T"
+slack_token = "xoxb-3647828200103-5563174698535-sBOUQP3zCaaGInEEsBBH8MQC"
 client = WebClient(token=slack_token)
 
 
